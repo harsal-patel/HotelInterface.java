@@ -26,16 +26,6 @@ public class MotelHomepage extends MotelGuest implements ActionListener {
     public static ArrayList<MotelGuest> guests = new ArrayList<>(Arrays.asList(noGuest, noGuest, noGuest, noGuest,
             noGuest, noGuest, noGuest, noGuest, noGuest, noGuest, noGuest, noGuest, noGuest, noGuest, noGuest,
             noGuest, noGuest, noGuest, noGuest));
-
-    public static JButton viewRooms;
-    public static JButton checkIn;
-    public static JButton checkOut;
-    public static JButton inHouse;
-    public static JButton guestInfo;
-    public static JButton nextDay;
-    public static JPanel roomPanel;
-    public static JPanel inHousePanel;
-    public static JLabel showDate;
     public static int counter = 0;
 
     @Override
@@ -44,6 +34,16 @@ public class MotelHomepage extends MotelGuest implements ActionListener {
     }
 
     public static void main(String[] args) throws InputMismatchException {
+         JButton viewRooms;
+         JButton checkIn;
+         JButton checkOut;
+         JButton inHouse;
+         JButton guestInfo;
+         JButton nextDay;
+         JPanel roomPanel;
+         JPanel inHousePanel;
+         JLabel showDate;
+        
         int tempNum;
         String tempFirst, tempLast;
 
